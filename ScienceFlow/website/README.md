@@ -25,7 +25,7 @@ The page presents:
 - a GECCO 2026 SpOC 4 Large-instance 9.8-day search figure;
 - an MLE-Bench workspace, validation, and resource figure;
 - a Sci Modeling Bench DrugMatrix MCHC stage-wise candidate-discovery figure;
-- an end-of-July 2026 code and technical-report release notice;
+- an early-August 2026 code and technical-report release notice;
 - Star, Issues, and Pull Requests links for the GitHub repository.
 - single-row, touch-scrollable Research Highlights and Long-horizon Tasks
   card tracks on mobile screens.
