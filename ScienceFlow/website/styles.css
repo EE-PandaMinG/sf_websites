@@ -78,6 +78,9 @@ a {
 }
 
 .repo-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   padding: 4px 9px;
   border: 1px solid var(--line);
   border-radius: 5px;
@@ -86,6 +89,21 @@ a {
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.repo-actions svg {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  fill: currentColor;
+}
+
+.repo-count {
+  min-width: 1ch;
+  padding-left: 6px;
+  border-left: 1px solid var(--line);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .repo-actions a:hover,
