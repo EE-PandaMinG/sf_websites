@@ -10,7 +10,7 @@
     <meta name="github-repository" content="EE-PandaMinG/sf_websites">
     <meta name="theme-color" content="#f6f8fa">
     <title>ScienceFlow — A Long-Horizon Agent for Scientific Discovery</title>
-    <link rel="stylesheet" href="./styles.css?v=20260725-23">
+    <link rel="stylesheet" href="./styles.css?v=20260725-24">
   </head>
   <body>
     <header class="site-header">
@@ -369,6 +369,7 @@
                     <col class="score-column">
                     <col class="score-column">
                     <col class="score-column">
+                    <col class="random-column">
                   </colgroup>
                   <thead>
                     <tr>
@@ -378,11 +379,12 @@
                       <th scope="col">Codex</th>
                       <th scope="col">OpenCode</th>
                       <th scope="col">Pi</th>
+                      <th scope="col">Random</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr class="task-group-row">
-                      <th colspan="6" scope="colgroup">Non-DrugMatrix · 7 task groups</th>
+                      <th colspan="7" scope="colgroup">Non-DrugMatrix · 7 task groups</th>
                     </tr>
                     <tr>
                       <th scope="row">TFBind8</th>
@@ -391,6 +393,7 @@
                       <td>0.9718</td>
                       <td class="task-second">0.9764</td>
                       <td>0.9730</td>
+                      <td class="random-cell">0.7533</td>
                     </tr>
                     <tr>
                       <th scope="row">Superconductor</th>
@@ -399,6 +402,7 @@
                       <td>0.8188</td>
                       <td>0.4929</td>
                       <td class="task-second">0.8671</td>
+                      <td class="random-cell">0.2800</td>
                     </tr>
                     <tr>
                       <th scope="row">UTR MRL</th>
@@ -407,6 +411,7 @@
                       <td>0.7424</td>
                       <td>0.6523</td>
                       <td class="task-second">0.7533</td>
+                      <td class="random-cell">-0.0006</td>
                     </tr>
                     <tr>
                       <th scope="row">TFBind10 Pho4</th>
@@ -415,6 +420,7 @@
                       <td>0.2024</td>
                       <td>0.2467</td>
                       <td>0.2473</td>
+                      <td class="random-cell">0.0000</td>
                     </tr>
                     <tr>
                       <th scope="row">GFP</th>
@@ -423,6 +429,7 @@
                       <td>0.2586</td>
                       <td>0.2600</td>
                       <td class="task-second">0.2692</td>
+                      <td class="random-cell">0.0001</td>
                     </tr>
                     <tr>
                       <th scope="row">CellDAG-NAS</th>
@@ -431,6 +438,7 @@
                       <td class="task-best">0.9394</td>
                       <td>0.9361</td>
                       <td>0.9347</td>
+                      <td class="random-cell">0.9287</td>
                     </tr>
                     <tr>
                       <th scope="row">Hopper Controller</th>
@@ -439,9 +447,10 @@
                       <td>0.3755</td>
                       <td class="task-second">0.3917</td>
                       <td>0.3248</td>
+                      <td class="random-cell">0.1698</td>
                     </tr>
                     <tr class="task-group-row">
-                      <th colspan="6" scope="colgroup">DrugMatrix · 6 endpoints, one task group</th>
+                      <th colspan="7" scope="colgroup">DrugMatrix · 6 endpoints, one task group</th>
                     </tr>
                     <tr>
                       <th scope="row">MCHC</th>
@@ -450,6 +459,7 @@
                       <td>0.6178</td>
                       <td class="task-best">0.7344</td>
                       <td>0.3720</td>
+                      <td class="random-cell">0.1733</td>
                     </tr>
                     <tr>
                       <th scope="row">MCH</th>
@@ -458,6 +468,7 @@
                       <td class="task-second">0.4242</td>
                       <td>0.4147</td>
                       <td>0.3673</td>
+                      <td class="random-cell">0.2669</td>
                     </tr>
                     <tr>
                       <th scope="row">Creatinine</th>
@@ -466,6 +477,7 @@
                       <td>0.5681</td>
                       <td>0.6081</td>
                       <td class="task-second">0.7638</td>
+                      <td class="random-cell">0.1955</td>
                     </tr>
                     <tr>
                       <th scope="row">Sodium</th>
@@ -474,6 +486,7 @@
                       <td>0.7696</td>
                       <td>0.7619</td>
                       <td class="task-second">0.8283</td>
+                      <td class="random-cell">0.1519</td>
                     </tr>
                     <tr>
                       <th scope="row">Chloride</th>
@@ -482,6 +495,7 @@
                       <td class="task-second">0.5589</td>
                       <td>0.5106</td>
                       <td>0.4551</td>
+                      <td class="random-cell">0.1689</td>
                     </tr>
                     <tr>
                       <th scope="row">Phosphorus</th>
@@ -490,6 +504,7 @@
                       <td>0.3749</td>
                       <td>0.4130</td>
                       <td class="task-second">0.4917</td>
+                      <td class="random-cell">0.2040</td>
                     </tr>
                   </tbody>
                   <tfoot>
@@ -500,13 +515,14 @@
                       <td class="summary-second">53.8545</td>
                       <td>45.4130</td>
                       <td>50.4705</td>
+                      <td class="random-cell">0.0000</td>
                     </tr>
                   </tfoot>
                 </table>
               </div>
               <p class="note">
                 DeepSeek-V4-Flash for all agents · All Score: mean fraction of
-                the Random-to-oracle gap closed across 8 equally weighted task groups.
+                the random-to-oracle gap closed across 8 equally weighted task groups.
               </p>
             </div>
           </section>

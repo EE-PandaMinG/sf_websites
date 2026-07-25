@@ -20,6 +20,8 @@ The page presents:
   - All: `70.22 ± 1.18%`
 - a Research Highlights selector for MLE-Bench, Sci Modeling Bench,
   Math / Optimization, and GECCO 2026 SpOC 4;
+- Sci Modeling Bench task results with their Random baselines and aggregated
+  All Score;
 - a GECCO 2026 SpOC 4 Large-instance 9.8-day search figure;
 - an MLE-Bench workspace, validation, and resource figure;
 - a Sci Modeling Bench DrugMatrix MCHC stage-wise candidate-discovery figure;

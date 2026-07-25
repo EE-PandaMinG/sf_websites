@@ -777,17 +777,21 @@ tbody tr:hover {
 }
 
 .designbench-task-table {
-  min-width: 760px;
+  min-width: 840px;
   table-layout: fixed;
   font-size: 12px;
 }
 
 .designbench-task-table .task-column {
-  width: 25%;
+  width: 22%;
+}
+
+.designbench-task-table .random-column {
+  width: 13%;
 }
 
 .designbench-task-table .score-column {
-  width: 15%;
+  width: 13%;
 }
 
 .designbench-task-table th,
@@ -809,6 +813,10 @@ tbody tr:hover {
 .designbench-task-table tbody th {
   color: var(--ink);
   font-weight: 600;
+}
+
+.designbench-task-table .random-cell {
+  color: var(--muted);
 }
 
 .designbench-task-table .task-group-row th {
@@ -1454,7 +1462,7 @@ footer {
   }
 
   .benchmark-card-details .designbench-task-table {
-    min-width: 560px;
+    min-width: 620px;
     font-size: 9.5px;
   }
 
