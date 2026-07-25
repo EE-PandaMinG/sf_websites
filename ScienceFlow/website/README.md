@@ -25,6 +25,8 @@ The page presents:
 - a Sci Modeling Bench DrugMatrix MCHC stage-wise candidate-discovery figure;
 - an end-of-July 2026 code and technical-report release notice;
 - Star, Issues, and Pull Requests links for the GitHub repository.
+- single-row, touch-scrollable Research Highlights and Long-horizon Tasks
+  card tracks on mobile screens.
 
 All published figures, posters, and OpenPyRo media used by the page are bundled
 under `assets/`. The header automatically infers `<owner>/<repository>` from a

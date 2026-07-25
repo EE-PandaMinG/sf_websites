@@ -1352,11 +1352,30 @@ footer {
   }
 
   .benchmark-timeline {
-    grid-template-columns: 1fr;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    padding: 2px 1px 9px;
+    scroll-padding-inline: 1px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
   }
 
   .benchmark-timeline::before {
     display: none;
+  }
+
+  .benchmark-timeline::-webkit-scrollbar,
+  .figure-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .timeline-item {
+    flex: 0 0 clamp(190px, 68vw, 245px);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
 
   .benchmark-detail-summary {
@@ -1376,7 +1395,21 @@ footer {
   }
 
   .figure-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    padding: 2px 1px 10px;
+    scroll-padding-inline: 1px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .figure-card {
+    flex: 0 0 clamp(280px, 84vw, 330px);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
 
   .release-inner {
