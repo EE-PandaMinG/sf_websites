@@ -15,9 +15,9 @@ The page presents:
   Discovery, and Beyond**;
 - ScienceFlow MLE-Bench Any-Medal rates:
   - Lite: `80.30 ± 1.52%`
-  - Medium: `75.44 ± 0.88%`
+  - Medium: `74.56 ± 0.88%`
   - High: `44.44 ± 2.22%`
-  - All: `70.67 ± 1.33%`
+  - All: `70.22 ± 1.18%`
 - a Research Highlights selector for MLE-Bench, Sci Modeling Bench,
   Math / Optimization, and GECCO 2026 SpOC 4;
 - a GECCO 2026 SpOC 4 Large-instance 9.8-day search figure;
