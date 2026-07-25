@@ -1,2 +1,5 @@
-# sf_websites
-test websites
+# ScienceFlow websites
+
+Static project websites and their bundled assets.
+
+- `ScienceFlow/website/`: ScienceFlow research website
