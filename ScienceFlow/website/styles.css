@@ -383,23 +383,23 @@ tbody td small {
 }
 
 .mle-leaderboard-table th:nth-child(1) {
-  width: 15%;
+  width: 13%;
 }
 
 .mle-leaderboard-table th:nth-child(2) {
-  width: 17%;
+  width: 16%;
 }
 
 .mle-leaderboard-table th:nth-child(n + 3):nth-child(-n + 6) {
-  width: 9%;
+  width: 9.5%;
 }
 
 .mle-leaderboard-table th:nth-child(7) {
-  width: 7%;
+  width: 12%;
 }
 
 .mle-leaderboard-table th:nth-child(8) {
-  width: 25%;
+  width: 21%;
 }
 
 .mle-leaderboard-table tbody th {
