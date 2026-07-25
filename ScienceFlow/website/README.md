@@ -27,6 +27,8 @@ The page presents:
 - Star, Issues, and Pull Requests links for the GitHub repository.
 - single-row, touch-scrollable Research Highlights and Long-horizon Tasks
   card tracks on mobile screens.
+- compact mobile benchmark tables with reduced type, spacing, and minimum
+  widths so more columns remain visible at once.
 
 All published figures, posters, and OpenPyRo media used by the page are bundled
 under `assets/`. The header automatically infers `<owner>/<repository>` from a

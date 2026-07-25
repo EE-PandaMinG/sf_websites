@@ -964,13 +964,13 @@ tbody tr:hover {
 }
 
 .figure-heading {
-  min-height: 52px;
-  margin-bottom: 10px;
+  min-height: 34px;
+  margin-bottom: 8px;
 }
 
 .figure-heading p {
-  margin: 0 0 2px;
-  color: var(--red-bright);
+  margin: 0;
+  color: var(--ink);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -1392,6 +1392,87 @@ footer {
     align-items: flex-start;
     flex-direction: column;
     gap: 2px;
+  }
+
+  .benchmark-card-details {
+    padding: 10px 6px 12px;
+  }
+
+  .benchmark-card-details table {
+    font-size: 9.5px;
+    line-height: 1.25;
+  }
+
+  .benchmark-card-details table th,
+  .benchmark-card-details table td {
+    padding: 5px 4px;
+  }
+
+  .benchmark-card-details table thead th {
+    font-size: 9px;
+  }
+
+  .benchmark-card-details .mle-leaderboard-table {
+    min-width: 660px;
+    font-size: 9.5px;
+  }
+
+  .benchmark-card-details .mle-leaderboard-table .score-spread {
+    margin-top: 1px;
+    font-size: 8px;
+  }
+
+  .benchmark-card-details .mle-leaderboard-table .availability-cell {
+    font-size: 8.5px;
+    line-height: 1.3;
+  }
+
+  .benchmark-card-details .math-table {
+    min-width: 560px;
+    table-layout: fixed;
+    font-size: 9.5px;
+  }
+
+  .benchmark-card-details .math-table th:nth-child(1) {
+    width: 21%;
+  }
+
+  .benchmark-card-details .math-table th:nth-child(2) {
+    width: 24%;
+  }
+
+  .benchmark-card-details .math-table th:nth-child(3) {
+    width: 25%;
+  }
+
+  .benchmark-card-details .math-table th:nth-child(4) {
+    width: 30%;
+  }
+
+  .benchmark-card-details .evidence-cell {
+    font-size: 9px;
+  }
+
+  .benchmark-card-details .designbench-task-table {
+    min-width: 560px;
+    font-size: 9.5px;
+  }
+
+  .benchmark-card-details .designbench-task-table thead th {
+    font-size: 9px;
+  }
+
+  .benchmark-card-details .designbench-task-table .task-group-row th {
+    font-size: 8.5px;
+  }
+
+  .benchmark-card-details .gecco-leaderboard-table {
+    min-width: 520px;
+    font-size: 9.5px;
+  }
+
+  .benchmark-card-details .gecco-leaderboard-table .rank-medal {
+    font-size: 14px;
   }
 
   .figure-grid {
