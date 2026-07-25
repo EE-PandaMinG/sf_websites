@@ -27,4 +27,9 @@ The page presents:
 - Star, Issues, and Pull Requests links for the GitHub repository.
 
 All published figures, posters, and OpenPyRo media used by the page are bundled
-under `assets/`; the site has no external runtime dependencies.
+under `assets/`. The header automatically infers `<owner>/<repository>` from a
+GitHub Pages URL such as `https://owner.github.io/repository/...`. On localhost
+or a custom domain, it falls back to the `github-repository` meta value in
+`index.html`. The Star count uses GitHub's public repository API with a cached
+Shields endpoint as a rate-limit fallback; no access token is stored in the
+page.
